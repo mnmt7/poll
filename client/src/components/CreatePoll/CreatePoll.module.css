@@ -1,0 +1,88 @@
+.create-poll {
+  margin-bottom: 30px;
+}
+
+.create-poll form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-poll input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.createPoll {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.createPoll h2 {
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.error {
+  color: red;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.optionInput {
+  width: 100%;
+}
+
+.optionInput:focus {
+  outline: none;
+}
+
+.optionInput:hover {
+  border-color: #e9ecef;
+}
+
+.option {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.removeButton:hover {
+  background-color: #ed4d41;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.addButton {
+  background-color: #e9ecef;
+  color: #1a1a1a;
+}
+
+.addButton:hover {
+  background-color: #dee2e6;
+}
+
+.submitButton {
+  flex: 1;
+}

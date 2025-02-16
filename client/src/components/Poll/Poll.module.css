@@ -1,0 +1,75 @@
+.poll {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.poll:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.poll h3 {
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.option {
+  margin: 16px 0;
+}
+
+.option button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 8px;
+  background-color: white;
+  color: #1a1a1a;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.option button:hover {
+  background-color: #f8f9fa;
+  border-color: #4361ee;
+  color: #4361ee;
+}
+
+.results {
+  background: #f8f9fa;
+  height: 24px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 18px 16px;
+}
+
+.progressBar {
+  background: linear-gradient(90deg, #4361ee, #81b3de);
+  height: 100%;
+  transition: width 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #1a1a1a;
+}
+
+.results span {
+  font-weight: 500;
+  z-index: 1;
+}
